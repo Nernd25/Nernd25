@@ -9,5 +9,8 @@ EditorBuildSettings:
     path: Assets/Menu.unity
     guid: 6f145221084ee4358abff7c0eef56720
   - enabled: 1
-    path: Assets/Bradleys and my game.unity
-    guid: 7760ed848926b4d198d58dac34f05e33
+    path: Assets/Scene 2.unity
+    guid: 565db450102e511409619c0e510f2f11
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
