@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class CharacterHealth : MonoBehaviour {
 	public float CurrentHealth { get; set; }
 	public float MaxHealth { get; set; }
@@ -40,6 +40,7 @@ public class CharacterHealth : MonoBehaviour {
 	{
 		CurrentHealth = 0;
 		Debug.Log ("YA DED");
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex + 1);
 	}
 
 }
