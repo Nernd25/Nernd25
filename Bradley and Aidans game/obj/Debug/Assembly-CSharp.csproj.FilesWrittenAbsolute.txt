@@ -93,9 +93,12 @@
 /Users/354374/Documents/GitHub/Nernd25/Bradley and Aidans game/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.dll
 /Users/354374/Documents/GitHub/Nernd25/Bradley and Aidans game/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.xml
 <<<<<<< HEAD
+<<<<<<< HEAD
 /Users/354374/Documents/GitHub/Nernd25/Bradley and Aidans game/Temp/bin/Debug/Assembly-CSharp.dll.mdb
 /Users/354374/Documents/GitHub/Nernd25/Bradley and Aidans game/Temp/bin/Debug/Assembly-CSharp.dll
 =======
+=======
+>>>>>>> 1a42dda6dcd314d469cb0be827b40c50d3bec30c
 /Users/405174/Documents/GitHub/Nernd25/Bradley and Aidans game/obj/Debug/Assembly-CSharp.dll
 /Users/405174/Documents/GitHub/Nernd25/Bradley and Aidans game/obj/Debug/Assembly-CSharp.dll.mdb
 /Users/405174/Documents/GitHub/Nernd25/Bradley and Aidans game/Temp/bin/Debug/UnityEngine.dll
@@ -146,4 +149,7 @@
 /Users/405174/Documents/GitHub/Nernd25/Bradley and Aidans game/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.xml
 /Users/405174/Documents/GitHub/Nernd25/Bradley and Aidans game/Temp/bin/Debug/Assembly-CSharp.dll.mdb
 /Users/405174/Documents/GitHub/Nernd25/Bradley and Aidans game/Temp/bin/Debug/Assembly-CSharp.dll
+<<<<<<< HEAD
+>>>>>>> 1a42dda6dcd314d469cb0be827b40c50d3bec30c
+=======
 >>>>>>> 1a42dda6dcd314d469cb0be827b40c50d3bec30c
