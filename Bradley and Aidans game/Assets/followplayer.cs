@@ -1,14 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class followplayer : MonoBehaviour {
 
-	public Transform player;
-	public Vector3 offset;
+	public Transform playerTransform;
+	public Vector3 playerVector3;
+
+	public NavMeshAgent agent;
+
+	void Start(){
 	
-	// Update is called once per frame
-	void Update () {
-		transform.position = player.position + offset; 
+		agent.autoBraking = false;
+	
 	}
+
+	void Update(){
+	
+		playerVector3 = playerTransform.transform.position;
+
+
+		agent.destination = playerVector3;
+
+	
+	}
+
 }
