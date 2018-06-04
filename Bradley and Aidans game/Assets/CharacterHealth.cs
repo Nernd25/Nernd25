@@ -10,7 +10,6 @@ public class CharacterHealth : MonoBehaviour {
 	public Slider healthbar;
 
 	// Use this for initialization
-	void Start () {
 		MaxHealth = 100f;
 		CurrentHealth = MaxHealth;
 
@@ -26,6 +25,7 @@ public class CharacterHealth : MonoBehaviour {
 		
 
 	void DealDamage (float damageValue)
+	public void DealDamage (float damageValue)
 	{
 		CurrentHealth -= damageValue; 
 		healthbar.value = CalculateHealth ();
@@ -34,6 +34,7 @@ public class CharacterHealth : MonoBehaviour {
 	}
 
 	float CalculateHealth()
+	public float CalculateHealth()
 	{
 		return CurrentHealth / MaxHealth;
 	}
