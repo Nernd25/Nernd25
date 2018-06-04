@@ -18,10 +18,12 @@ public class CharacterHealth : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		if (Input.GetKeyDown (KeyCode.X))
-			DealDamage (6);
-	}
+
+		void OnCollisionEnter(Collision collisionInfo) {
+			if (collisionInfo.collider.tag == "enemy")
+				DealDamage (10f);
+		}
+		
 
 	void DealDamage (float damageValue)
 	{
