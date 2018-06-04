@@ -10,6 +10,7 @@ public class CharacterHealth : MonoBehaviour {
 	public Slider healthbar;
 
 	// Use this for initialization
+	public void Start () {
 		MaxHealth = 100f;
 		CurrentHealth = MaxHealth;
 
